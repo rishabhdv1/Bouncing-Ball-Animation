@@ -1,0 +1,48 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 200PX;
+    font-size: 5em;
+    color: #fff;
+    animation: bounce 1s ease-in infinite alternate  ;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(500px);
+    }
+}
+.a {
+    animation-delay: 0s;
+    background: violet;
+}
+.b {
+    animation-delay: .2s;
+    background: indigo;
+}
+.c {
+    animation-delay: .4s;
+    background: blue;
+}
+.d {
+    animation-delay: .6s;
+    background: green;
+}
+.e {
+    animation-delay: .8s;
+    background: yellow;
+}
+.f {
+    animation-delay: 1s;
+    background: orange;
+}
+.g {
+    animation-delay: 1.2s;
+    background: red;
+}
